@@ -1,0 +1,63 @@
+.Hospitals{
+    display: grid;
+    grid-template-rows: 25% 70%;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    
+    /* padding-top: 15px; */
+    
+}
+ul{
+    list-style: none;
+    width: fit-content;
+}
+.Hospital{
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    height: 100%;
+
+}
+.Hospital>li{
+    padding: 10px 10px;
+    margin: 10px 0px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    width: 100%;
+    /* margin-right: 50px; */
+}
+.LeftLists{
+    display: flex;
+    width: fit-content;
+    width: fit-content;
+
+}
+.RightSide{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    left: 30%;
+}
+.datesColumn{
+    display: inline-block;
+}
+.data{
+    position: absolute;
+    left: 65% ;
+    top: 0%;   
+     display: flex;
+    flex-direction: row;
+    
+}
+.data>li{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    list-style: none;
+    width: 50px;
+    margin: 0 10px;
+
+   
+
+    margin: 15px 5px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
